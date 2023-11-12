@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="src/styles/buttons.css">
     <link rel="stylesheet" href="src/styles/containers_and_frames.css">
 
-    <!-- Fonts -->
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="src/assets/favicon/Favicon.ico" type="image/x-icon">
 
     <!-- main style -->
     <link rel="stylesheet" href="src/styles/main.css">
@@ -22,7 +25,8 @@
     <title>Yu-Gi-Oh  Jo-ken-po Edition</title>
 </head>
 <body>
-    
+    <audio id="bgm" loop src="src/assets/audios/egyptian_duel.mp3" type="audio/mp3"></audio>
+
     <div class="bg-video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4">
@@ -51,7 +55,7 @@
 
                 <div class="card-box framed" id="computer-cards"></div>
 
-                <div class="card-versus__container debug">
+                <div class="card-versus__container">
                     <div class="versus-top">
                         <div class="card-infield">
                             <img id="player-field-card" height="180px" width="125px">
